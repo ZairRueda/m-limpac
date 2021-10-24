@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>LIMPAC</title>
+
+    <meta
+      name="description"
+      content="Empreza de Limpieza y matenimiento Comercial"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/img/favicons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/img/favicons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/img/favicons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/img/favicons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/img/favicons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/img/favicons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/img/favicons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/img/favicons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/img/favicons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/assets/img/favicons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/img/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/assets/img/favicons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/img/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/img/favicons/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========== CSS ==========-->
+
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body class="index">
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">LIMPAC</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Nosotros</a>
+            </li>
+            <li class="nav__item">
+              <a href="#forYou" class="nav__link">Para Ti</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Servicios</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contacto</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Limpieza <br />
+              y excelencia
+            </h1>
+            <h2 class="home__subtitle">
+              Construyamos juntos <br/> un entorno laboral digno y limpio.
+            </h2>
+            <a href="#contact" class="button">Contactar</a>
+          </div>
+
+          <img src="/assets/img/hero.webp" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--========== ABOUT ==========-->
+
+      <section class="about section bd-container" id="about">
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <span class="section-subtitle about__initial">Nosotros</span>
+            <h2 class="section-title about__initial">Estamos Comprometidos</h2>
+
+            <nav class="menu-nosotros">
+              <a href="#mision"><i class=""></i>Misión</a>
+              <a href="#vision"><i class=""></i>Visión</a>
+              <a href="#politica"><i class=""></i>Política</a>
+              <a href="#valores"><i class=""></i>Valores</a>
+            </nav>
+
+            <div>
+              <div id="mision" class="info-nosotros ocultar clearfix">
+                <div class="detalle-evento">
+                  <p>
+                    Hacer la diferencia en los servicios que ofrecemos,
+                    promoviendo y concientizando a nuestro equipo de
+                    colaboradores, la gran importancia de nuestros clientes.
+                  </p>
+                </div>
+              </div>
+
+              <div id="vision" class="info-nosotros ocultar clearfix">
+                <div class="detalle-evento">
+                  <p>
+                    Siempre tener presentes los objetivos que buscamos para
+                    lograr la satisfacción total de nuestros clientes internos y
+                    externos, mediante la promoción continua de nuestros valores
+                    y políticas.
+                  </p>
+                </div>
+              </div>
+
+              <div id="politica" class="info-nosotros ocultar clearfix">
+                <div class="detalle-evento">
+                  <p>
+                    Dar Calidad humana a todos nuestros colaboradores al
+                    reconocer el lugar importante que ocupan en la estructura
+                    empresarial y dar capacitación continua para lograr así la
+                    calidad de excelencia en nuestros servicios.
+                  </p>
+                </div>
+              </div>
+
+              <div id="valores" class="info-nosotros ocultar clearfix">
+                <div class="detalle-evento">
+                  <div class="lista-valores">
+                    <ul>
+                      <li class="uno">
+                        <p>Confiabilidad</p>
+                      </li>
+                      <li class="uno">
+                        <p>Lealtad</p>
+                        
+                      </li>
+                      <li class="uno">
+                        <p>Respeto</p>
+                        
+                      </li>
+                    </ul>
+                    <ul>
+                      <li class="dos">
+                        <p>Honradez</p>
+                      </li>
+                      <li class="dos">
+                        <p>Honestidad</p>
+                      </li>
+                      <li class="dos">
+                        <p>Honorabilidad</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <img
+            src="/assets/img/imagen-nosotros.webp"
+            alt=""
+            class="about__img"
+          />
+        </div>
+      </section>
+
+      <!--========== SERVICES ==========-->
+      <section class="services section bd-container" id="forYou">
+        <span class="section-subtitle">Para Ti</span>
+        <h2 class="section-title">Todo lo que optendras</h2>
+
+        <div class="services__container bd-grid">
+          <div class="services__content">
+            <!-- class="services__img" -->
+            <box-icon class="services__img" name="brain"></box-icon>
+            <h3 class="services__title">Personal Calificado</h3>
+            <p class="services__description"> 
+              Capacitamos constantemente a nuestros colaboradores, para poder brindar el mejor servicio día tras día. 
+            </p>
+          </div>
+
+          <div class="services__content">
+            <box-icon
+              class="services__img"
+              name="check-shield"
+              type="solid"
+            ></box-icon>
+            <h3 class="services__title">Seguridad</h3>
+            <p class="services__description">
+              Garantizamos una total seguridad en la implementación del
+              servicio, como resultado de nuestros valores.
+            </p>
+          </div>
+
+          <div class="services__content">
+            <box-icon
+              class="services__img"
+              type="solid"
+              name="meteor"
+            ></box-icon>
+            <h3 class="services__title">Servicio Rápido</h3>
+            <p class="services__description">Nuestra responsabilidad es agilizar nuestro 
+              trabajo y respetar tú tiempo
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contenedor servicios -->
+      <div class="contenedor__servicios hidden">
+      </div>
+
+      <!--========== MENU ==========-->
+      <section class="menu section" id="services">
+        <span class="section-subtitle">Servicios</span>
+        <h2 class="section-title">A Contratar</h2>
+        
+          <div class="menu__container bd-grid">
+            <div class="menu__content">
+              <img src="/assets/img/pexels-matilda-wormwood-4099465.webp" alt="" class="menu__img" />
+              <h3 class="menu__name">Tecnico en Limpieza</h3>
+              <span class="menu__detail">Limpieza completa</span>
+              <span class="menu__detail">Total Higiene</span>
+              <span class="menu__detail">Técnicos especializados</span>
+              <span class="menu__detail">Desinfección</span>
+              <button id="tecnico" class="button menu__preci">Saber Más</button>
+              <!-- <a href="#" class="button menu__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a> -->
+            </div>
+
+            <div class="menu__content">
+              <img src="/assets/img/pexels-cottonbro-4503268.webp" alt="" class="menu__img" />
+              <h3 class="menu__name">Jardinería</h3>
+              <span class="menu__detail">Eliminación de monte</span>
+              <span class="menu__detail">Desinfección de Plantas</span>
+              <span class="menu__detail">Abonado</span>
+              <span class="menu__detail">Productos Necesarios</span>
+              <button id="jardineria" class="button menu__preci">Saber Más</button>
+              <!-- <a href="#" class="button menu__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a> -->
+            </div>
+
+            <div class="menu__content">
+              <img src="/assets/img/pexels-andrea-piacquadio-3770238.webp" alt="" class="menu__img" />
+              <h3 class="menu__name">Mantenimiento General</h3>
+              <span class="menu__detail">Mantenimiento Preventivo</span>
+              <span class="menu__detail">Limpieza</span>
+              <span class="menu__detail">Reparación</span>
+              <span class="menu__detail">Constante Capacitación</span>
+              <button id="general" id-db="1" class="button menu__preci">Saber Más</button>
+              <!-- <a href="#" class="button menu__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a> -->
+            </div>
+
+            <div class="menu__content">
+              <img src="/assets/img/Lavado-de-Autobuses.webp" alt="" class="menu__img" />
+              <h3 class="menu__name">Lavado de Autobuses y camines de carga</h3>
+              <span class="menu__detail">Mantenimiento y Aspirado</span>
+              <span class="menu__detail">Mejor imagen</span>
+              <span class="menu__detail">Olores agradables </span>
+              <span class="menu__detail">Brillo</span>
+              <button id="auto"  class="button menu__preci">Saber Más</button>
+              <!-- <a href="#" class="button menu__button"
+              ><i class="bx bx-cart-alt"></i ></a> -->
+            </div>
+
+            <div class="menu__content">
+              <img src="/assets/img/pexels-pixabay-48889.webp" alt="" class="menu__img" />
+              <h3 class="menu__name">Limpieza Profunda</h3>
+              <span class="menu__detail">Limpieza completa</span>
+              <span class="menu__detail">Total Higiene</span>
+              <span class="menu__detail">Técnicos especializados</span>
+              <span class="menu__detail">Los mejores productos</span>
+              <button id="profunda"  class="button menu__preci">Saber Más</button>
+              <!-- <a href="#" class="button menu__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a> -->
+            </div>
+
+            <div class="menu__content">
+              <img src="/assets/img/pexels-karolina-grabowska-4210373.webp" alt="" class="menu__img" />
+              <h3 class="menu__name">Lavado en Seco</h3>
+              <span class="menu__detail">Limpieza completa</span>
+              <span class="menu__detail">Total Higiene</span>
+              <span class="menu__detail">Técnicos especializados</span>
+              <span class="menu__detail">Los mejores productos</span>
+              <button id="seco"  class="button menu__preci">Saber Más</button>
+              <!-- <a href="#" class="button menu__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a> -->
+            </div>
+
+            <div class="menu__content">
+              <img src="/assets/img/pexels-matilda-wormwood-4098778.webp" alt="" class="menu__img" />
+              <h3 class="menu__name">Fumigacion</h3>
+              <span class="menu__detail">Limpieza completa</span>
+              <span class="menu__detail">Total Higiene</span>
+              <span class="menu__detail">Técnicos especializados</span>
+              <span class="menu__detail">Los mejores productos</span>
+              <button id="fumigacion"  class="button menu__preci">Saber Más</button>
+              <!-- <a href="#" class="button menu__button"
+              ><i class="bx bx-cart-alt"></i
+            ></a> -->
+            </div>
+          </div>
+      </section>
+
+      <!--===== APP =======-->
+      <section class="app section bd-container">
+        <div class="app__container bd-grid">
+          <div class="app__data">
+            <span class="section-subtitle app__initial">Marcas</span>
+            <h2 class="section-title app__initial">Clientes satisfechos</h2>
+            <p class="app__description">
+              A lo largo de nuestra historia hemos colaborado con marcas de alto prestigio,
+              ellos han confiado en nosotros.
+            </p>
+            <div class="app__stores">
+              <!-- <a href="#"
+                ><img src="assets/img/app1.png" alt="" class="app__store"
+              /></a>
+              <a href="#"
+                ><img src="assets/img/app2.png" alt="" class="app__store"
+              /></a> -->
+            </div>
+          </div>
+
+          <img src="/assets/img/marcas.png" alt="" class="app__img" />
+        </div>
+      </section>
+
+      <!--========== CONTACT US ==========-->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact__container bd-grid">
+          <div class="contact__data">
+            <span class="section-subtitle contact__initial">Habla con nosotros</span>
+            <h2 class="section-title contact__initial">Contactanos</h2>
+            <p class="contact__description">
+              Si estás buscando trabajo puedes llenar el siguiente formulario y nosotros nos pondremos en contacto contigo
+            </p>
+            <p>Los datos que ingreses en este formulario solo serán usados para contactarnos con usted, bajo las normas de la secretaria de seguridad ciudadana</p>
+          </div>
+
+          <div class="contact__button" id="botonFormulario">
+            <a class="button">Abrir Formulario</a>
+          </div>
+        </div>
+      </section>
+
+      <div id="formulario-flotante" class="formulario__flotante hidden">
+ 
+        <h2>Formulario de contacto</h2>
+        
+        <form class="formulario" action="/send-email" method="post">
+            <fieldset>
+              <legend>Datos:</legend>
+
+              <label for="nombre">Nombre: </label>
+              <input type="text" placeholder="Ejemplo: Mario Moreno Castro" id="nombre" name="nombre">
+
+              <label for="correo">Correo: </label>
+              <input type="email" placeholder="Ejemplo: tucorreo@gmail.com" id="email" name="email">
+
+              <label for="telefono">Telefono: </label>
+              <input type="tel" placeholder="Ejemplo: 2347524451" id="telefono" name="telefono">
+
+              <label for="estado">Estado: </label>
+              <input type="text" placeholder="Ejemplo: Guerrero" id="estado" name="estado">
+
+              <label for="ciudad">Ciudad: </label>
+              <input type="text" placeholder="Ejemplo: Acapulco" id="ciudad" name="ciudad">
+
+              <label for="mensaje">Comentario adicional: </label>
+              <textarea id="mensaje" name="mensaje"></textarea>
+
+            </fieldset>
+
+            <div class="botones-form flex-bet">
+              <input type="submit" id="enviar-formulario" value="Enviar" class="boton-enviar button">
+              <a class="boton-cerrar button" href="">Cerrar</a>
+            </div>
+        </form>
+      </div>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+      <div class="footer__container bd-grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">LIMPAC</a>
+          <span class="footer__description">Exelencia en limpieza</span>
+          <div>
+            <a href="https://www.facebook.com/Multiservicios-Limpac-101654428012729" class="footer__social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="404.html" class="footer__social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="404.html" class="footer__social"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Ir a</h3>
+          <ul>
+            <li><a href="#home" class="footer__link">Inicio</a></li>
+            <li><a href="#about" class="footer__link">Nosotros</a></li>
+            <li><a href="#foryou" class="footer__link">Para Ti</a></li>
+            <li><a href="#services" class="footer__link">Servicios</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Information</h3>
+          <ul>
+            <li><a href="#" class="footer__link">Historia</a></li>
+            <li><a href="#" class="footer__link">Bolsa de trabajo</a></li>
+            <li><a href="#" class="footer__link">Politica de privacidad</a></li>
+            <li><a href="#" class="footer__link">Treminos y condiciones</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Direccion</h3>
+          <ul>
+            <li>Acapulco de Juárez, Guerrero, México</li>
+            <li>Calle: Parian</li>
+            <li>No. 32 Int. 204</li>
+            <li>Col. Centro C.P. 39300.</li>
+            <li>ventas@limpac.mx</li>
+            
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copy">
+        &#169; 2021 Limpac. Todos los derechos recerbados
+      </p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="/assets/js/JQuery3.3.1.js"></script>
+
+    <!-- Data Base -->
+    <script src="/assets/js/db.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="/assets/js/main.js"></script>
+
+    <script src="/assets/js/app.js"></script>
+
+    <script src="/assets/js/cuadro.js"></script>
+
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+
+    <script src="https://www.google-analytics.com/analytics.js " async></script>
+  </body>
+</html>
